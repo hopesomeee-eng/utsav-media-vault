@@ -6,13 +6,35 @@
   "default_tag": "v1.0.0",
   "updated_at": "2026-11-01T00:00:00Z",
   "stats": {
-    "total_assets": 0,
+    "total_assets": 3,
     "categories": {
-      "cards": 0,
-      "heroes": 0,
-      "ambient": 0,
-      "lotties": 0
+      "ambient": 3
     }
   },
-  "assets": []
+  "assets": [
+    {
+      "sha256": "3871eebfe910f76d2bd3aa3ae1d5145b516969486a8c65ac94c3ff267dda8c7e",
+      "filename": "3871eebfe910f76d2bd3aa3ae1d5145b516969486a8c65ac94c3ff267dda8c7e.aac",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/38/3871eebfe910f76d2bd3aa3ae1d5145b516969486a8c65ac94c3ff267dda8c7e.aac",
+      "byte_size": 28234,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/38/3871eebfe910f76d2bd3aa3ae1d5145b516969486a8c65ac94c3ff267dda8c7e.aac"
+    },
+    {
+      "sha256": "a735c4a72e985840c7a8c2a484e255224895e67dd5be9956ab0defe12b5fd0ba",
+      "filename": "a735c4a72e985840c7a8c2a484e255224895e67dd5be9956ab0defe12b5fd0ba.aac",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/a7/a735c4a72e985840c7a8c2a484e255224895e67dd5be9956ab0defe12b5fd0ba.aac",
+      "byte_size": 38682,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/a7/a735c4a72e985840c7a8c2a484e255224895e67dd5be9956ab0defe12b5fd0ba.aac"
+    },
+    {
+      "sha256": "9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8",
+      "filename": "9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8.aac",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/98/9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8.aac",
+      "byte_size": 7139,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/98/9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8.aac"
+    }
+  ]
 }
