@@ -100,3 +100,4 @@ python scripts/sync_media_to_vault.py
 ## 📄 License
 
 This repository and its media assets are licensed under the [MIT License](LICENSE).
+

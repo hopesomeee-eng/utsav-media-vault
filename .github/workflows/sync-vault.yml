@@ -1,0 +1,58 @@
+name: Scheduled Media Vault Auto-Sync
+
+on:
+  schedule:
+    # Runs every 2 days at 02:00 AM UTC (07:30 AM IST)
+    - cron: '0 2 */2 * *'
+  workflow_dispatch:
+    # Allows manual 1-click trigger from GitHub Actions dashboard
+  repository_dispatch:
+    # Allows automated webhook triggers via Supabase/API
+    types: [sync_media]
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Sync Assets from Supabase & Cloudinary
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Supabase Media Sync Worker
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://holvlrymoagqwlbjltuv.supabase.co' }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || 'sb_publishable_5GCe04LDHJSzla2XOmyGag_kkp62BEH' }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python scripts/sync_from_supabase.py
+
+      - name: Commit and Push Changes to Vault
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "[+] New media files detected. Staging and committing..."
+            git add .
+            git commit -m "chore(vault): auto-sync new media assets [skip ci]"
+            git push origin main
+            
+            # Update immutable release tag v1.0.0
+            git tag -fa v1.0.0 -m "Release v1.0.0 updated with new vaulted media"
+            git push origin v1.0.0 --force
+            echo "[✓] Successfully pushed updates and updated v1.0.0 tag."
+          else
+            echo "[=] Media vault is already up to date. Zero changes to commit."
+          fi
