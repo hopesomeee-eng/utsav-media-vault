@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "utsav-media-vault",
+  "owner": "hopesomeee-eng",
+  "repo": "utsav-media-vault",
+  "default_tag": "v1.0.0",
+  "updated_at": "2026-11-01T00:00:00Z",
+  "stats": {
+    "total_assets": 0,
+    "categories": {
+      "cards": 0,
+      "heroes": 0,
+      "ambient": 0,
+      "lotties": 0
+    }
+  },
+  "assets": []
+}

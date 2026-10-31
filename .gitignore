@@ -1,0 +1,16 @@
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and staging files
+*.tmp
+*.temp
+*.bak
+*.log
+.staging/
+
+# Node / Editor caches
+.vscode/
+.idea/
+*.swp

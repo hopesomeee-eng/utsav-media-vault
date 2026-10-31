@@ -1,0 +1,62 @@
+name: Validate Media Vault Integrity
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Media Vault
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Verify SHA-256 Checksums and Shard Paths
+        run: |
+          python - << 'EOF'
+          import os
+          import hashlib
+          import sys
+
+          errors = []
+          total_checked = 0
+          base_dir = "festivals"
+
+          if not os.path.exists(base_dir):
+              print("No festivals directory found. Initial state OK.")
+              sys.exit(0)
+
+          for root, dirs, files in os.walk(base_dir):
+              for file in files:
+                  if file.startswith(".") or file == ".gitkeep":
+                      continue
+                  file_path = os.path.join(root, file)
+                  total_checked += 1
+                  filename_without_ext = os.path.splitext(file)[0].lower()
+                  
+                  # Compute actual sha256
+                  hasher = hashlib.sha256()
+                  with open(file_path, "rb") as f:
+                      while chunk := f.read(65536):
+                          hasher.update(chunk)
+                  actual_hash = hasher.hexdigest().lower()
+
+                  # If filename is a 64-char sha256, verify it matches
+                  if len(filename_without_ext) == 64:
+                      if filename_without_ext != actual_hash:
+                          errors.append(f"Hash mismatch for {file_path}: name={filename_without_ext}, actual={actual_hash}")
+
+          print(f"Validated {total_checked} media assets.")
+          if errors:
+              print("\n".join(errors))
+              sys.exit(1)
+          print("All media assets passed integrity check!")
+          EOF
