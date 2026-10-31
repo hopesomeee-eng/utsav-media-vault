@@ -6,9 +6,10 @@
   "default_tag": "v1.0.0",
   "updated_at": "2026-11-01T00:00:00Z",
   "stats": {
-    "total_assets": 3,
+    "total_assets": 10,
     "categories": {
-      "ambient": 3
+      "ambient": 3,
+      "lotties": 7
     }
   },
   "assets": [
@@ -35,6 +36,62 @@
       "storage_key": "festivals/ambient/98/9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8.aac",
       "byte_size": 7139,
       "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/98/9823752dbd14a0793053fba9e028db938bf91ae743609239774055089d9d45f8.aac"
+    },
+    {
+      "sha256": "6a89cfdcc1e9f74a9e32a499f8b5ff87fce8d64671a5964b0ef6a57518eaa762",
+      "filename": "6a89cfdcc1e9f74a9e32a499f8b5ff87fce8d64671a5964b0ef6a57518eaa762.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/6a/6a89cfdcc1e9f74a9e32a499f8b5ff87fce8d64671a5964b0ef6a57518eaa762.json",
+      "byte_size": 97607,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/6a/6a89cfdcc1e9f74a9e32a499f8b5ff87fce8d64671a5964b0ef6a57518eaa762.json"
+    },
+    {
+      "sha256": "2362694050e8123b17c868a397e068894adbf06f54410c468d4c7c20729462b7",
+      "filename": "2362694050e8123b17c868a397e068894adbf06f54410c468d4c7c20729462b7.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/23/2362694050e8123b17c868a397e068894adbf06f54410c468d4c7c20729462b7.json",
+      "byte_size": 54516,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/23/2362694050e8123b17c868a397e068894adbf06f54410c468d4c7c20729462b7.json"
+    },
+    {
+      "sha256": "4cfdeec440a83b03188a0badf79235f22fa418745e7e141ebcbecd12eb8aeb1e",
+      "filename": "4cfdeec440a83b03188a0badf79235f22fa418745e7e141ebcbecd12eb8aeb1e.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/4c/4cfdeec440a83b03188a0badf79235f22fa418745e7e141ebcbecd12eb8aeb1e.json",
+      "byte_size": 6792,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/4c/4cfdeec440a83b03188a0badf79235f22fa418745e7e141ebcbecd12eb8aeb1e.json"
+    },
+    {
+      "sha256": "bcf17ffd387ab495960a398809396dbc567b6d41b6794dd0a90fd87990b208b1",
+      "filename": "bcf17ffd387ab495960a398809396dbc567b6d41b6794dd0a90fd87990b208b1.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/bc/bcf17ffd387ab495960a398809396dbc567b6d41b6794dd0a90fd87990b208b1.json",
+      "byte_size": 47633,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/bc/bcf17ffd387ab495960a398809396dbc567b6d41b6794dd0a90fd87990b208b1.json"
+    },
+    {
+      "sha256": "809f7342a06240d8475a6a2b17b6025b3e3554068d4d4c3f018376148dc63d18",
+      "filename": "809f7342a06240d8475a6a2b17b6025b3e3554068d4d4c3f018376148dc63d18.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/80/809f7342a06240d8475a6a2b17b6025b3e3554068d4d4c3f018376148dc63d18.json",
+      "byte_size": 217150,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/80/809f7342a06240d8475a6a2b17b6025b3e3554068d4d4c3f018376148dc63d18.json"
+    },
+    {
+      "sha256": "4533035899bb4b9fa54196c3aa7abdfd48d5cf617808936e7020c0c6ecf95c12",
+      "filename": "4533035899bb4b9fa54196c3aa7abdfd48d5cf617808936e7020c0c6ecf95c12.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/45/4533035899bb4b9fa54196c3aa7abdfd48d5cf617808936e7020c0c6ecf95c12.json",
+      "byte_size": 29471,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/45/4533035899bb4b9fa54196c3aa7abdfd48d5cf617808936e7020c0c6ecf95c12.json"
+    },
+    {
+      "sha256": "186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1",
+      "filename": "186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/18/186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1.json",
+      "byte_size": 5134,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/18/186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1.json"
     }
   ]
 }
