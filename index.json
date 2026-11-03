@@ -6,10 +6,11 @@
   "default_tag": "v1.0.0",
   "updated_at": "2026-11-01T00:00:00Z",
   "stats": {
-    "total_assets": 10,
+    "total_assets": 11,
     "categories": {
       "ambient": 3,
-      "lotties": 7
+      "lotties": 7,
+      "cards": 1
     }
   },
   "assets": [
@@ -92,6 +93,14 @@
       "storage_key": "festivals/lotties/18/186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1.json",
       "byte_size": 5134,
       "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/18/186b9fadaf03ead6d00317f2b8835c71543e141d414a0898853119b1e99c42b1.json"
+    },
+    {
+      "sha256": "63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48",
+      "filename": "63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/63/63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48.webp",
+      "byte_size": 83178,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/63/63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48.webp"
     }
   ]
 }
