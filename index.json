@@ -6,11 +6,11 @@
   "default_tag": "v1.0.0",
   "updated_at": "2026-11-01T00:00:00Z",
   "stats": {
-    "total_assets": 11,
+    "total_assets": 41,
     "categories": {
       "ambient": 3,
       "lotties": 7,
-      "cards": 1
+      "cards": 31
     }
   },
   "assets": [
@@ -101,6 +101,246 @@
       "storage_key": "festivals/cards/63/63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48.webp",
       "byte_size": 83178,
       "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/63/63f5ac1270094c5a9cdfd99b90feae3db12ef59fb3f23dd11934b47fbf604c48.webp"
+    },
+    {
+      "sha256": "b5759d5522e53f77881c5da97a5ba1cabc494f2767587b715ccdaabb7f48dd93",
+      "filename": "b5759d5522e53f77881c5da97a5ba1cabc494f2767587b715ccdaabb7f48dd93.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/b5/b5759d5522e53f77881c5da97a5ba1cabc494f2767587b715ccdaabb7f48dd93.webp",
+      "byte_size": 375178,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/b5/b5759d5522e53f77881c5da97a5ba1cabc494f2767587b715ccdaabb7f48dd93.webp"
+    },
+    {
+      "sha256": "c45168343b3e18ef523c9432ae4a2307708f19b86e5d4cfde37d82e44746027a",
+      "filename": "c45168343b3e18ef523c9432ae4a2307708f19b86e5d4cfde37d82e44746027a.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/c4/c45168343b3e18ef523c9432ae4a2307708f19b86e5d4cfde37d82e44746027a.webp",
+      "byte_size": 291690,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/c4/c45168343b3e18ef523c9432ae4a2307708f19b86e5d4cfde37d82e44746027a.webp"
+    },
+    {
+      "sha256": "f5fdd5ad7a349e9346fae75ef21ab3b4637057325a76000424450c59da32349e",
+      "filename": "f5fdd5ad7a349e9346fae75ef21ab3b4637057325a76000424450c59da32349e.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/f5/f5fdd5ad7a349e9346fae75ef21ab3b4637057325a76000424450c59da32349e.webp",
+      "byte_size": 220930,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/f5/f5fdd5ad7a349e9346fae75ef21ab3b4637057325a76000424450c59da32349e.webp"
+    },
+    {
+      "sha256": "a262726130c98526da04839c2c1437584d9245a35e58e0f6d7fe6c2f5599be32",
+      "filename": "a262726130c98526da04839c2c1437584d9245a35e58e0f6d7fe6c2f5599be32.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/a2/a262726130c98526da04839c2c1437584d9245a35e58e0f6d7fe6c2f5599be32.webp",
+      "byte_size": 257408,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/a2/a262726130c98526da04839c2c1437584d9245a35e58e0f6d7fe6c2f5599be32.webp"
+    },
+    {
+      "sha256": "b877b767b4edad128b979e1cb27517a9d39295e40b0314a014503ff30ee390c0",
+      "filename": "b877b767b4edad128b979e1cb27517a9d39295e40b0314a014503ff30ee390c0.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/b8/b877b767b4edad128b979e1cb27517a9d39295e40b0314a014503ff30ee390c0.webp",
+      "byte_size": 75718,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/b8/b877b767b4edad128b979e1cb27517a9d39295e40b0314a014503ff30ee390c0.webp"
+    },
+    {
+      "sha256": "8896931e01d2af20ebbf09f15dfaf6eb3d489f0204531880e951d98e46c4501f",
+      "filename": "8896931e01d2af20ebbf09f15dfaf6eb3d489f0204531880e951d98e46c4501f.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/88/8896931e01d2af20ebbf09f15dfaf6eb3d489f0204531880e951d98e46c4501f.webp",
+      "byte_size": 362850,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/88/8896931e01d2af20ebbf09f15dfaf6eb3d489f0204531880e951d98e46c4501f.webp"
+    },
+    {
+      "sha256": "34092bf3e2092591fa136feb7b5c33f8ab57fcd45895957048df9718bb8d0590",
+      "filename": "34092bf3e2092591fa136feb7b5c33f8ab57fcd45895957048df9718bb8d0590.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/34/34092bf3e2092591fa136feb7b5c33f8ab57fcd45895957048df9718bb8d0590.webp",
+      "byte_size": 333060,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/34/34092bf3e2092591fa136feb7b5c33f8ab57fcd45895957048df9718bb8d0590.webp"
+    },
+    {
+      "sha256": "4128553d2edb13163252934f40ca5a52b96f676cb3aee8cf3c07c94008c943d6",
+      "filename": "4128553d2edb13163252934f40ca5a52b96f676cb3aee8cf3c07c94008c943d6.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/41/4128553d2edb13163252934f40ca5a52b96f676cb3aee8cf3c07c94008c943d6.webp",
+      "byte_size": 368534,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/41/4128553d2edb13163252934f40ca5a52b96f676cb3aee8cf3c07c94008c943d6.webp"
+    },
+    {
+      "sha256": "c30e233c73d10e8baceec8d0d0cc0c8385a0a1034c2392c930e485294cd7a671",
+      "filename": "c30e233c73d10e8baceec8d0d0cc0c8385a0a1034c2392c930e485294cd7a671.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/c3/c30e233c73d10e8baceec8d0d0cc0c8385a0a1034c2392c930e485294cd7a671.webp",
+      "byte_size": 376722,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/c3/c30e233c73d10e8baceec8d0d0cc0c8385a0a1034c2392c930e485294cd7a671.webp"
+    },
+    {
+      "sha256": "151525ca8bd3aeff9b196d853baf4d97bed2141b49f678935601e444f496904d",
+      "filename": "151525ca8bd3aeff9b196d853baf4d97bed2141b49f678935601e444f496904d.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/15/151525ca8bd3aeff9b196d853baf4d97bed2141b49f678935601e444f496904d.webp",
+      "byte_size": 353710,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/15/151525ca8bd3aeff9b196d853baf4d97bed2141b49f678935601e444f496904d.webp"
+    },
+    {
+      "sha256": "90f83d7339e31c14619984ebebe011e66d5a0bf19bcb9c9723d26466f6629eef",
+      "filename": "90f83d7339e31c14619984ebebe011e66d5a0bf19bcb9c9723d26466f6629eef.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/90/90f83d7339e31c14619984ebebe011e66d5a0bf19bcb9c9723d26466f6629eef.webp",
+      "byte_size": 249828,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/90/90f83d7339e31c14619984ebebe011e66d5a0bf19bcb9c9723d26466f6629eef.webp"
+    },
+    {
+      "sha256": "f24887021d92d2d5548e5dda77e81921fe2ba17a40336fb525f2026c3acba5ad",
+      "filename": "f24887021d92d2d5548e5dda77e81921fe2ba17a40336fb525f2026c3acba5ad.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/f2/f24887021d92d2d5548e5dda77e81921fe2ba17a40336fb525f2026c3acba5ad.webp",
+      "byte_size": 282660,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/f2/f24887021d92d2d5548e5dda77e81921fe2ba17a40336fb525f2026c3acba5ad.webp"
+    },
+    {
+      "sha256": "63aa10f36619dea6c3843d87de35b433fb01417d1ebbba65891dd62657d27fec",
+      "filename": "63aa10f36619dea6c3843d87de35b433fb01417d1ebbba65891dd62657d27fec.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/63/63aa10f36619dea6c3843d87de35b433fb01417d1ebbba65891dd62657d27fec.webp",
+      "byte_size": 302640,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/63/63aa10f36619dea6c3843d87de35b433fb01417d1ebbba65891dd62657d27fec.webp"
+    },
+    {
+      "sha256": "85fc62faff013e25658875b9ed4e029499d66d725f4f7c571bff3694a2b787f7",
+      "filename": "85fc62faff013e25658875b9ed4e029499d66d725f4f7c571bff3694a2b787f7.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/85/85fc62faff013e25658875b9ed4e029499d66d725f4f7c571bff3694a2b787f7.webp",
+      "byte_size": 327364,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/85/85fc62faff013e25658875b9ed4e029499d66d725f4f7c571bff3694a2b787f7.webp"
+    },
+    {
+      "sha256": "41d353904a0c56e96e911f877725eb8f886a29ed74ecacef2060902809213036",
+      "filename": "41d353904a0c56e96e911f877725eb8f886a29ed74ecacef2060902809213036.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/41/41d353904a0c56e96e911f877725eb8f886a29ed74ecacef2060902809213036.webp",
+      "byte_size": 37444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/41/41d353904a0c56e96e911f877725eb8f886a29ed74ecacef2060902809213036.webp"
+    },
+    {
+      "sha256": "2e382f4987bfda67f9c6312f801873abe4ff88697ffd0f3c25e15fee8a856496",
+      "filename": "2e382f4987bfda67f9c6312f801873abe4ff88697ffd0f3c25e15fee8a856496.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/2e/2e382f4987bfda67f9c6312f801873abe4ff88697ffd0f3c25e15fee8a856496.webp",
+      "byte_size": 83084,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/2e/2e382f4987bfda67f9c6312f801873abe4ff88697ffd0f3c25e15fee8a856496.webp"
+    },
+    {
+      "sha256": "9cf4b5512f03fd4c7a42f5be29ee8757347cce90e2c77c6cbaa781a180f507c9",
+      "filename": "9cf4b5512f03fd4c7a42f5be29ee8757347cce90e2c77c6cbaa781a180f507c9.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/9c/9cf4b5512f03fd4c7a42f5be29ee8757347cce90e2c77c6cbaa781a180f507c9.webp",
+      "byte_size": 49360,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/9c/9cf4b5512f03fd4c7a42f5be29ee8757347cce90e2c77c6cbaa781a180f507c9.webp"
+    },
+    {
+      "sha256": "67a053aadc2823b1537644e6fc5b89609dcf0043b76de5274f219a8084e01d51",
+      "filename": "67a053aadc2823b1537644e6fc5b89609dcf0043b76de5274f219a8084e01d51.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/67/67a053aadc2823b1537644e6fc5b89609dcf0043b76de5274f219a8084e01d51.webp",
+      "byte_size": 126006,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/67/67a053aadc2823b1537644e6fc5b89609dcf0043b76de5274f219a8084e01d51.webp"
+    },
+    {
+      "sha256": "6eaab500a60e1ecc591c597ac76a30c7d7bda32a0e16514702dbc781472b10ac",
+      "filename": "6eaab500a60e1ecc591c597ac76a30c7d7bda32a0e16514702dbc781472b10ac.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/6e/6eaab500a60e1ecc591c597ac76a30c7d7bda32a0e16514702dbc781472b10ac.webp",
+      "byte_size": 55060,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/6e/6eaab500a60e1ecc591c597ac76a30c7d7bda32a0e16514702dbc781472b10ac.webp"
+    },
+    {
+      "sha256": "f56118678aa7369d77e1654ce27988a419c31ad51fe0e6808ae40f6f8329d64f",
+      "filename": "f56118678aa7369d77e1654ce27988a419c31ad51fe0e6808ae40f6f8329d64f.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/f5/f56118678aa7369d77e1654ce27988a419c31ad51fe0e6808ae40f6f8329d64f.webp",
+      "byte_size": 72122,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/f5/f56118678aa7369d77e1654ce27988a419c31ad51fe0e6808ae40f6f8329d64f.webp"
+    },
+    {
+      "sha256": "5e7d9f76c7503a99c4f4e1a6e1fa9c4632740b8d84be13883c436db9fe94cf8e",
+      "filename": "5e7d9f76c7503a99c4f4e1a6e1fa9c4632740b8d84be13883c436db9fe94cf8e.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/5e/5e7d9f76c7503a99c4f4e1a6e1fa9c4632740b8d84be13883c436db9fe94cf8e.webp",
+      "byte_size": 76038,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/5e/5e7d9f76c7503a99c4f4e1a6e1fa9c4632740b8d84be13883c436db9fe94cf8e.webp"
+    },
+    {
+      "sha256": "aeee9062f08b356f157ec8bfb46cb3e8e232648bc0bba20faff54127bc81e14d",
+      "filename": "aeee9062f08b356f157ec8bfb46cb3e8e232648bc0bba20faff54127bc81e14d.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/ae/aeee9062f08b356f157ec8bfb46cb3e8e232648bc0bba20faff54127bc81e14d.webp",
+      "byte_size": 81428,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/ae/aeee9062f08b356f157ec8bfb46cb3e8e232648bc0bba20faff54127bc81e14d.webp"
+    },
+    {
+      "sha256": "b391b99e475c054589960842c7c42cda087055f249f6c441b2e14582ed286691",
+      "filename": "b391b99e475c054589960842c7c42cda087055f249f6c441b2e14582ed286691.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/b3/b391b99e475c054589960842c7c42cda087055f249f6c441b2e14582ed286691.webp",
+      "byte_size": 81400,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/b3/b391b99e475c054589960842c7c42cda087055f249f6c441b2e14582ed286691.webp"
+    },
+    {
+      "sha256": "a653d3b3a7e11e8cee7be02705fcfd0c54dd42ff77b453a3099dec7b35eb6006",
+      "filename": "a653d3b3a7e11e8cee7be02705fcfd0c54dd42ff77b453a3099dec7b35eb6006.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/a6/a653d3b3a7e11e8cee7be02705fcfd0c54dd42ff77b453a3099dec7b35eb6006.webp",
+      "byte_size": 76292,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/a6/a653d3b3a7e11e8cee7be02705fcfd0c54dd42ff77b453a3099dec7b35eb6006.webp"
+    },
+    {
+      "sha256": "0419248599911c756a6678bd8f4ad785b6320dcf36d8998249b306ab0e563882",
+      "filename": "0419248599911c756a6678bd8f4ad785b6320dcf36d8998249b306ab0e563882.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/04/0419248599911c756a6678bd8f4ad785b6320dcf36d8998249b306ab0e563882.webp",
+      "byte_size": 81430,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/04/0419248599911c756a6678bd8f4ad785b6320dcf36d8998249b306ab0e563882.webp"
+    },
+    {
+      "sha256": "48544208a2c184eaa2ba51414267eb32061834bf23511442a2a468257842618c",
+      "filename": "48544208a2c184eaa2ba51414267eb32061834bf23511442a2a468257842618c.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/48/48544208a2c184eaa2ba51414267eb32061834bf23511442a2a468257842618c.webp",
+      "byte_size": 70242,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/48/48544208a2c184eaa2ba51414267eb32061834bf23511442a2a468257842618c.webp"
+    },
+    {
+      "sha256": "f52942996f3b50638ba3086c513c0fb6bddce7a6cb616638f5d1d3f0743c32f1",
+      "filename": "f52942996f3b50638ba3086c513c0fb6bddce7a6cb616638f5d1d3f0743c32f1.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/f5/f52942996f3b50638ba3086c513c0fb6bddce7a6cb616638f5d1d3f0743c32f1.webp",
+      "byte_size": 79246,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/f5/f52942996f3b50638ba3086c513c0fb6bddce7a6cb616638f5d1d3f0743c32f1.webp"
+    },
+    {
+      "sha256": "6f7f4a6ebbf91a415e65f22579c43b8da2b2bd52b02dda272bbff799ab68ac7d",
+      "filename": "6f7f4a6ebbf91a415e65f22579c43b8da2b2bd52b02dda272bbff799ab68ac7d.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/6f/6f7f4a6ebbf91a415e65f22579c43b8da2b2bd52b02dda272bbff799ab68ac7d.webp",
+      "byte_size": 70242,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/6f/6f7f4a6ebbf91a415e65f22579c43b8da2b2bd52b02dda272bbff799ab68ac7d.webp"
+    },
+    {
+      "sha256": "658e04e25f79f8a7af5453feba311bb4c145ded0a43b6d25e2eb468e12f1884a",
+      "filename": "658e04e25f79f8a7af5453feba311bb4c145ded0a43b6d25e2eb468e12f1884a.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/65/658e04e25f79f8a7af5453feba311bb4c145ded0a43b6d25e2eb468e12f1884a.webp",
+      "byte_size": 81490,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/65/658e04e25f79f8a7af5453feba311bb4c145ded0a43b6d25e2eb468e12f1884a.webp"
+    },
+    {
+      "sha256": "080d5027ed5b05eb3a24e6c1210e5cba430a165cd2da6a0ef1c1dcdea8f00a00",
+      "filename": "080d5027ed5b05eb3a24e6c1210e5cba430a165cd2da6a0ef1c1dcdea8f00a00.webp",
+      "category": "cards",
+      "storage_key": "festivals/cards/08/080d5027ed5b05eb3a24e6c1210e5cba430a165cd2da6a0ef1c1dcdea8f00a00.webp",
+      "byte_size": 65938,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/08/080d5027ed5b05eb3a24e6c1210e5cba430a165cd2da6a0ef1c1dcdea8f00a00.webp"
     }
   ]
 }
