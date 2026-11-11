@@ -1,0 +1,81 @@
+name: Supabase Database Keepalive & Health Guard
+
+on:
+  schedule:
+    # Runs every 3 days at 04:00 AM UTC (09:30 AM IST) on public repo (unlimited free Actions minutes)
+    # Guaranteed to prevent Supabase free-tier project auto-pause/lock (requires activity every 7-28 days)
+    - cron: '0 4 */3 * *'
+  workflow_dispatch:
+    # Manual 1-click trigger from GitHub Actions dashboard
+  repository_dispatch:
+    types: [keepalive_ping]
+
+jobs:
+  keepalive:
+    name: Ping Supabase REST API & Validate Health
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase Events Catalog
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://holvlrymoagqwlbjltuv.supabase.co' }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || 'sb_publishable_5GCe04LDHJSzla2XOmyGag_kkp62BEH' }}
+        run: |
+          echo "[+] Pinging Supabase Events endpoint to reset inactivity pause timer..."
+          HTTP_STATUS=$(curl -s -o /tmp/events_resp.json -w "%{http_code}" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+            "${SUPABASE_URL}/rest/v1/events?select=id,title,slug&limit=1")
+          
+          echo "HTTP Status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "[-] Error: Expected HTTP 200, got $HTTP_STATUS"
+            cat /tmp/events_resp.json
+            exit 1
+          fi
+          echo "[✓] Events endpoint healthy: $(cat /tmp/events_resp.json)"
+
+      - name: Ping Supabase Lottie Overlays Table
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://holvlrymoagqwlbjltuv.supabase.co' }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || 'sb_publishable_5GCe04LDHJSzla2XOmyGag_kkp62BEH' }}
+        run: |
+          echo "[+] Pinging Supabase Lottie Overlays endpoint..."
+          HTTP_STATUS=$(curl -s -o /tmp/lottie_resp.json -w "%{http_code}" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+            "${SUPABASE_URL}/rest/v1/lottie_overlays?select=id,slug,lottie_url&limit=1")
+          
+          echo "HTTP Status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "[-] Error: Expected HTTP 200, got $HTTP_STATUS"
+            cat /tmp/lottie_resp.json
+            exit 1
+          fi
+          echo "[✓] Lottie Overlays endpoint healthy: $(cat /tmp/lottie_resp.json)"
+
+      - name: Ping Supabase Ambient Audio Table
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://holvlrymoagqwlbjltuv.supabase.co' }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || 'sb_publishable_5GCe04LDHJSzla2XOmyGag_kkp62BEH' }}
+        run: |
+          echo "[+] Pinging Supabase Ambient Audio endpoint..."
+          HTTP_STATUS=$(curl -s -o /tmp/audio_resp.json -w "%{http_code}" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}" \
+            "${SUPABASE_URL}/rest/v1/ambient_audio?select=id,slug,audio_url&limit=1")
+          
+          echo "HTTP Status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "[-] Error: Expected HTTP 200, got $HTTP_STATUS"
+            cat /tmp/audio_resp.json
+            exit 1
+          fi
+          echo "[✓] Ambient Audio endpoint healthy: $(cat /tmp/audio_resp.json)"
+
+      - name: Activity Summary
+        run: |
+          echo "=========================================================="
+          echo "🎉 Supabase Database Keepalive Successful!"
+          echo "Timestamp: $(date -u)"
+          echo "Database project active and protected from free-tier auto-pause."
+          echo "=========================================================="
