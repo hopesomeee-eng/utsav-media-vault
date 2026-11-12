@@ -4,12 +4,12 @@
   "owner": "hopesomeee-eng",
   "repo": "utsav-media-vault",
   "default_tag": "v1.0.0",
-  "updated_at": "2026-11-01T00:00:00Z",
+  "updated_at": "2026-11-12T05:25:51.523109+00:00",
   "stats": {
-    "total_assets": 136,
+    "total_assets": 199,
     "categories": {
-      "ambient": 3,
-      "lotties": 7,
+      "ambient": 13,
+      "lotties": 60,
       "cards": 126
     }
   },
@@ -1101,6 +1101,510 @@
       "storage_key": "festivals/cards/48/4855ce249cb188a84f96a311478410082ca7c143d95f7b47e6888b5f62fe2fe8.webp",
       "byte_size": 365794,
       "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/cards/48/4855ce249cb188a84f96a311478410082ca7c143d95f7b47e6888b5f62fe2fe8.webp"
+    },
+    {
+      "sha256": "fb03813402981df3abec768893c368fea1db0a69c6f41ca8fa83857eaf4fcf4a",
+      "filename": "ramadan_lantern.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/ramadan_lantern.json",
+      "byte_size": 4963,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/ramadan_lantern.json"
+    },
+    {
+      "sha256": "89ada37ed5e53a068b4ee7baee0b68805db2142310b5a8d14fac9c412f013436",
+      "filename": "lotus_bloom.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/lotus_bloom.json",
+      "byte_size": 3648,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/lotus_bloom.json"
+    },
+    {
+      "sha256": "bfa48fab80f466daf626f9c4e620f57b7a812996cdd10b6b309455f2f4790f6e",
+      "filename": "khalsa_symbol.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/khalsa_symbol.json",
+      "byte_size": 4958,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/khalsa_symbol.json"
+    },
+    {
+      "sha256": "8195410ca7fab8ea18e557fee7218f6563838c2ccdb30b579b548238530ec162",
+      "filename": "lotus_pose.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/lotus_pose.json",
+      "byte_size": 4946,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/lotus_pose.json"
+    },
+    {
+      "sha256": "328996d4aa75156a9516f9ea970590fe2cabcd4b295c01a2921660ff7bf1a499",
+      "filename": "pongal_pot.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/pongal_pot.json",
+      "byte_size": 4946,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/pongal_pot.json"
+    },
+    {
+      "sha256": "c51ddcc097afb1d5f97972739984fde09ffdf390c166a94912d7777ff5ca92f1",
+      "filename": "holi_splash.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/holi_splash.json",
+      "byte_size": 15350,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/holi_splash.json"
+    },
+    {
+      "sha256": "56ad708fdcb122de2ca2e9dca09bdd241300374599b78eb4ee7f67d6b18fef90",
+      "filename": "women_silhouette.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/women_silhouette.json",
+      "byte_size": 4964,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/women_silhouette.json"
+    },
+    {
+      "sha256": "e008af37bc7927f340796d489d4ea07d587ef12bf84fe3cd0ba0258d0e19211f",
+      "filename": "veena.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/veena.json",
+      "byte_size": 4932,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/veena.json"
+    },
+    {
+      "sha256": "fb9fc373fbf409745872c2701714e346aa6e22256992a2ab422a43bbdd6e00b1",
+      "filename": "aarti_thali.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/aarti_thali.json",
+      "byte_size": 4948,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/aarti_thali.json"
+    },
+    {
+      "sha256": "0d24bba426eff77d726a67750ac52deb5298d375fcd4c491eed11d33d71e8312",
+      "filename": "kalash.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/kalash.json",
+      "byte_size": 4452,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/kalash.json"
+    },
+    {
+      "sha256": "6546e4722c29cb3108db9c6d60b2c596f89af8df689d342556bde9926ef17e39",
+      "filename": "gudi_flag.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/gudi_flag.json",
+      "byte_size": 4946,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/gudi_flag.json"
+    },
+    {
+      "sha256": "a46bedfa27d7a6a15a73d800d1e7474f2b2e62afa6ea333f5f038e327f734b00",
+      "filename": "mountain_lift.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/mountain_lift.json",
+      "byte_size": 4958,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/mountain_lift.json"
+    },
+    {
+      "sha256": "a2fa0e7e8532ad521fecdc4bc723861dacf4e27c52a29821559a9e853ba574bf",
+      "filename": "peace_dove.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/peace_dove.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/peace_dove.json"
+    },
+    {
+      "sha256": "c1363bbb96c7f72a67172bcaa86b11bb7be25c139bd24e3f040b4db8670bf180",
+      "filename": "dad_hero.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/dad_hero.json",
+      "byte_size": 4943,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/dad_hero.json"
+    },
+    {
+      "sha256": "c440d68e991da022865e4f37c16bb96ad9b5c43fc3a25f4c13aeee23c6df9cf5",
+      "filename": "spinning_charkha.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/spinning_charkha.json",
+      "byte_size": 4965,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/spinning_charkha.json"
+    },
+    {
+      "sha256": "d170b1ed30f0e0d3d1475acf0d3a1ab69637fd9f73e4e2a51777942a94f29eff",
+      "filename": "gold_coins.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/gold_coins.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/gold_coins.json"
+    },
+    {
+      "sha256": "e07e912be74e274b02ffeb3f388dd05a6ebca6a0bdab92882de8a1720f1c183b",
+      "filename": "garba_dance.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/garba_dance.json",
+      "byte_size": 4946,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/garba_dance.json"
+    },
+    {
+      "sha256": "846cf0d78323be17b91a9be6e594696e4b5838af02df0ab866add527286030ee",
+      "filename": "sieve_moon.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/sieve_moon.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/sieve_moon.json"
+    },
+    {
+      "sha256": "0159b1cc31c8e079305d4ce32826e24ddde3c610f48116a966b5060b4dc49a27",
+      "filename": "mace_gada.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/mace_gada.json",
+      "byte_size": 4944,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/mace_gada.json"
+    },
+    {
+      "sha256": "7d049cbbdbab8de576f9d95eff41cdd839833d522bf43aec001f4e438aeb4496",
+      "filename": "rakhi_thread.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/rakhi_thread.json",
+      "byte_size": 4953,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/rakhi_thread.json"
+    },
+    {
+      "sha256": "35d740e5ef113f3350ac1db2d8d10f248a83610fae697f578a837bf0b6293419",
+      "filename": "vishu_kani.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/vishu_kani.json",
+      "byte_size": 4948,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/vishu_kani.json"
+    },
+    {
+      "sha256": "4e05f47aa180de7ca7a2b52c0bb2aeedd85c5b069551c3f36188bddffd1d0e71",
+      "filename": "ek_onkar.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/ek_onkar.json",
+      "byte_size": 4943,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/ek_onkar.json"
+    },
+    {
+      "sha256": "51d5c0bac9660502caebaca88d6480d378c83e6999446fe339e6b361920a3ef6",
+      "filename": "crescent_moon.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/crescent_moon.json",
+      "byte_size": 4958,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/crescent_moon.json"
+    },
+    {
+      "sha256": "059ec908b3f9198134d5b2570bd61ed7d4a73d9a201017114ceecd1b169c625c",
+      "filename": "modak_drop.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/modak_drop.json",
+      "byte_size": 2905,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/modak_drop.json"
+    },
+    {
+      "sha256": "f368d714dce45d5c003887de7364d52425a0274560de2a91ec8343e6cbabef69",
+      "filename": "diwali_diyas.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/diwali_diyas.json",
+      "byte_size": 8004,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/diwali_diyas.json"
+    },
+    {
+      "sha256": "40166926ac1c1650ecb014cf574fd476cf8370b1987c21a942b7aa499976c750",
+      "filename": "balloons.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/balloons.json",
+      "byte_size": 4943,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/balloons.json"
+    },
+    {
+      "sha256": "b255f44005d2b12cc76a1a8b837cecf0fc27b96dede3360e5456e208bc5fd4c5",
+      "filename": "sun_worship.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/sun_worship.json",
+      "byte_size": 4952,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/sun_worship.json"
+    },
+    {
+      "sha256": "0c17895a737d0bc0cc8d2c4e07e170367f0724095536ec2be2a3780fd2f81b91",
+      "filename": "banyan_tree.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/banyan_tree.json",
+      "byte_size": 4952,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/banyan_tree.json"
+    },
+    {
+      "sha256": "0c7f1160b5345fccf0ac68472c2287b1c9bd85c64bc12f40b2d9065654a09ef2",
+      "filename": "snake_coil.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/snake_coil.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/snake_coil.json"
+    },
+    {
+      "sha256": "be42bd83892531cb9086dd02bdcf1ee44f5150e85f11171a7ff9fda58e11dac2",
+      "filename": "sprouting_plant.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/sprouting_plant.json",
+      "byte_size": 4961,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/sprouting_plant.json"
+    },
+    {
+      "sha256": "f7797ef3733b817b6655856d2b1ebe44ca069da51b1ca5e63c479c568b31d029",
+      "filename": "flute_peacock.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/flute_peacock.json",
+      "byte_size": 4958,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/flute_peacock.json"
+    },
+    {
+      "sha256": "e4133e0c95b8283bd1ea1d3132b5bd1ec3c1c340680cff7bd51ff963bf631fa4",
+      "filename": "kaaba_glow.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/kaaba_glow.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/kaaba_glow.json"
+    },
+    {
+      "sha256": "8a19b7e7cb5b54e5413b4933d4ddab2332641dcd9b755b52d79e6a4ea4584a75",
+      "filename": "kites_flying.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/kites_flying.json",
+      "byte_size": 4955,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/kites_flying.json"
+    },
+    {
+      "sha256": "3ce4a69f926306b8e6d645cabcd739b14937e8f9f2e2be180177351a2fd10f1c",
+      "filename": "snow_tree.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/snow_tree.json",
+      "byte_size": 4944,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/snow_tree.json"
+    },
+    {
+      "sha256": "19d567824881c48c90fdd2139cd8d69a8fa9b79cefe47724d48a3e42ebdc49f0",
+      "filename": "nihang_warrior.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/nihang_warrior.json",
+      "byte_size": 4961,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/nihang_warrior.json"
+    },
+    {
+      "sha256": "986b56ebec47f7c6b99e610f6403e22e6c33bb92adc85552b4c07d20628f1c61",
+      "filename": "durga_face.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/durga_face.json",
+      "byte_size": 4947,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/durga_face.json"
+    },
+    {
+      "sha256": "11dc7b3c0f7541037824628865db40a8e7a60c90d233452f4a51b2a6e2b439b8",
+      "filename": "shiva_trishul.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/shiva_trishul.json",
+      "byte_size": 5809,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/shiva_trishul.json"
+    },
+    {
+      "sha256": "f079d3c08f5c3dd59922ad75fa6cbab73734acbe7223e279b63dac5c4c3aefe2",
+      "filename": "snake_boat.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/snake_boat.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/snake_boat.json"
+    },
+    {
+      "sha256": "fd340f75e47d18c345084e33ba213a2625245302774adf7b4de5e7862cea6521",
+      "filename": "lion_ride.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/lion_ride.json",
+      "byte_size": 4944,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/lion_ride.json"
+    },
+    {
+      "sha256": "fe7dd88451a4c4bf24eaa7ba434ad90dc8050981313465f5026d2bd29618dd62",
+      "filename": "easter_eggs.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/easter_eggs.json",
+      "byte_size": 4949,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/easter_eggs.json"
+    },
+    {
+      "sha256": "f9f4e9e3cddf93fc666a7f6b92eeea398f6196319401b4002776915189e81978",
+      "filename": "floating_hearts.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/floating_hearts.json",
+      "byte_size": 4964,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/floating_hearts.json"
+    },
+    {
+      "sha256": "f7d0f9359b1fa726de436e117455dc74e32fd3c1740afb30e5e76e35aa827a50",
+      "filename": "bodhi_tree.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/bodhi_tree.json",
+      "byte_size": 4948,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/bodhi_tree.json"
+    },
+    {
+      "sha256": "08ebdf7c8d04a2dd851eaa17aa7844d1db0da511cf15a267487814869c22e722",
+      "filename": "mother_child.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/mother_child.json",
+      "byte_size": 4955,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/mother_child.json"
+    },
+    {
+      "sha256": "1096ec4a8ebf40ceff84f33be25825960c9d2713ba346ba637876d21dc988700",
+      "filename": "books_apple.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/books_apple.json",
+      "byte_size": 4950,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/books_apple.json"
+    },
+    {
+      "sha256": "88456e40be399e6f05d79586ec421cae67827d5352d5fe194af8fa08997c9d41",
+      "filename": "swing_jhula.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/swing_jhula.json",
+      "byte_size": 4952,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/swing_jhula.json"
+    },
+    {
+      "sha256": "fc211a2a62b83dd8b5897e5ce039002b56a94572a5431aab6cbb882dbb9bf62c",
+      "filename": "tulsi_pot.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/tulsi_pot.json",
+      "byte_size": 4943,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/tulsi_pot.json"
+    },
+    {
+      "sha256": "b8421c43992464ca4b38ae93f0c29241003ce6d122875599da93faa25d4db46f",
+      "filename": "tricolor_flag.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/tricolor_flag.json",
+      "byte_size": 3716,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/tricolor_flag.json"
+    },
+    {
+      "sha256": "aeb45465d022e80bfaced4e5f092aa9415a0b411a3710321afc36f58a50a586c",
+      "filename": "constitution_book.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/constitution_book.json",
+      "byte_size": 4970,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/constitution_book.json"
+    },
+    {
+      "sha256": "11321c6c3a7ca3f1032e576bd81101eecf5ec882293d62fd6f35c30c7ac91f84",
+      "filename": "folded_hands.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/folded_hands.json",
+      "byte_size": 2932,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/folded_hands.json"
+    },
+    {
+      "sha256": "319e82f9760c7b79e97b9a14b3c6caedeac94a0afd1b684d0f522b410429cf50",
+      "filename": "arrow_burning.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/arrow_burning.json",
+      "byte_size": 4956,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/arrow_burning.json"
+    },
+    {
+      "sha256": "1a42a82abff46fadd1ff212a2d85ad6abeaf6ea0c21d64b7fad656d9b11a2985",
+      "filename": "kite_flying.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/kite_flying.json",
+      "byte_size": 2543,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/kite_flying.json"
+    },
+    {
+      "sha256": "1541c8edf5a2833853fd279152816ed3b7a5be925ebfa9ddec3c45c0eab6bef2",
+      "filename": "bow_arrow.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/bow_arrow.json",
+      "byte_size": 2928,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/bow_arrow.json"
+    },
+    {
+      "sha256": "9522af390c1e91b8e695afaa93748967f7026b0422fe7a3a41201c5a9e6d8658",
+      "filename": "saffron_flag_waving.json",
+      "category": "lotties",
+      "storage_key": "festivals/lotties/saffron_flag_waving.json",
+      "byte_size": 4976,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/lotties/saffron_flag_waving.json"
+    },
+    {
+      "sha256": "54414fa0b23bc0c3380f4dbf055d6bb2263a5459b0e73f937320454c5fb9406a",
+      "filename": "church-bells-christmas.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/church-bells-christmas.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/church-bells-christmas.wav"
+    },
+    {
+      "sha256": "5136a81b1d9051f57834d417bd72dc995989c13855b1da37c67468628db0f49d",
+      "filename": "holi-dhol-beats.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/holi-dhol-beats.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/holi-dhol-beats.wav"
+    },
+    {
+      "sha256": "7135021c699f72cf32caef874c4f0521a64f807558a3e69fb42dcca09895750b",
+      "filename": "diwali-aarti-bells.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/diwali-aarti-bells.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/diwali-aarti-bells.wav"
+    },
+    {
+      "sha256": "53e9c7b07e6d81ef1b41cd19ffd394059760347b3517ba939211da8fd398ee78",
+      "filename": "shiva-chant-om-namah-shivaya.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/shiva-chant-om-namah-shivaya.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/shiva-chant-om-namah-shivaya.wav"
+    },
+    {
+      "sha256": "df66816bd4c8e6341e13df7a414dc4247cd51586af0295bb566023978a79d203",
+      "filename": "tricolor-patriotic.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/tricolor-patriotic.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/tricolor-patriotic.wav"
+    },
+    {
+      "sha256": "a16c4c041064c77862da0431649439bffe62ed8a299a7b30cbbf7376c7b13899",
+      "filename": "garba-dandiya-beat.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/garba-dandiya-beat.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/garba-dandiya-beat.wav"
+    },
+    {
+      "sha256": "c7630a8a58d5943bf6476cfcad852a4d7fa471201f4f7a288005f53a7207dac4",
+      "filename": "om-bells.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/om-bells.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/om-bells.wav"
+    },
+    {
+      "sha256": "c8d085d825654dae93a545433d39cc3048140fe40bc2f87199636ed7d9e2daa7",
+      "filename": "ganesha-aarti.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/ganesha-aarti.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/ganesha-aarti.wav"
+    },
+    {
+      "sha256": "d1ed5f4913059cb5d98185bedb2f6a8df507eea1d54980a4b639269dd8361670",
+      "filename": "buddha-meditation.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/buddha-meditation.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/buddha-meditation.wav"
+    },
+    {
+      "sha256": "188c2287fd7c383286f6d88964b7c26f03bb6301023d78c12e400620db2a81cd",
+      "filename": "krishna-flute-melody.wav",
+      "category": "ambient",
+      "storage_key": "festivals/ambient/krishna-flute-melody.wav",
+      "byte_size": 1058444,
+      "primary_url": "https://cdn.jsdelivr.net/gh/hopesomeee-eng/utsav-media-vault@v1.0.0/festivals/ambient/krishna-flute-melody.wav"
     }
   ]
 }

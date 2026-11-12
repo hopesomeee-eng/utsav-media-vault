@@ -56,3 +56,4 @@ jobs:
           else
             echo "[=] Media vault is already up to date. Zero changes to commit."
           fi
+
